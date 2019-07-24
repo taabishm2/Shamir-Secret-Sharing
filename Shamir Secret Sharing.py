@@ -5,7 +5,7 @@ from decimal import *
 global field_size
 field_size = 496025623
 
-def tncombinex(shares): #Combines shares using Lagranges interpolation
+def tncombinex(shares,x=0): #Combines shares using Lagranges interpolation
     '''shares is an array of shares being combined, t is the threshold in the scheme'''
     global field_size
     
